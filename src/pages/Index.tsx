@@ -4,7 +4,7 @@ import { Header } from '@/components/Header';
 import { ProductCard } from '@/components/ProductCard';
 import { products, categories } from '@/data/products';
 import { Button } from '@/components/ui/button';
-import { Sparkles, TrendingUp, Zap } from 'lucide-react';
+import { Sparkles, Zap } from 'lucide-react';
 
 const Index = () => {
   const [searchParams] = useSearchParams();
